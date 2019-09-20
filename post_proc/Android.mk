@@ -50,7 +50,8 @@ endif
 
 LOCAL_HEADER_LIBRARIES := libhardware_headers \
                           libsystem_headers \
-                          libutils_headers
+                          libutils_headers \
+                          generated_kernel_headers
 
 LOCAL_SHARED_LIBRARIES := \
         libcutils \
