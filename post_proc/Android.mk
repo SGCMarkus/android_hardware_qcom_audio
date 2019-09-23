@@ -232,7 +232,7 @@ LOCAL_PROPRIETARY_MODULE := true
 
 LOCAL_C_INCLUDES := \
     hardware/qcom/audio/hal \
-    system/media/audio/include/system \
+    $(call project-path-for,qcom-audio)/include/system \
     $(call include-path-for, audio-effects)
 
 LOCAL_HEADER_LIBRARIES += libhardware_headers
